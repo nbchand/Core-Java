@@ -1,3 +1,4 @@
+import com.infodev.string_exercise.CheckEqual;
 import com.infodev.string_exercise.LastChar;
 
 /**
@@ -12,6 +13,9 @@ public class StringExerciseMain {
      * @param args Command line arguments
      */
     public static void main(String[] args) {
+        //Q.N. 1)
         LastChar.performTask("Hello");
+        //Q.N. 2)
+        CheckEqual.performTask();
     }
 }
