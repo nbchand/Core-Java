@@ -1,6 +1,7 @@
 import com.infodev.string_exercise.CheckEqual;
 import com.infodev.string_exercise.LastChar;
 import com.infodev.string_exercise.StringReverse;
+import com.infodev.string_exercise.WhiteSpaceNumbers;
 
 /**
  * A single main class for all the classes inside com.infodev.string_exercise package
@@ -20,5 +21,7 @@ public class StringExerciseMain {
         CheckEqual.performTask();
         //Q.N. 4)
         StringReverse.performTask();
+        //Q.N. 5)
+        WhiteSpaceNumbers.performTask("Hello world  ");
     }
 }
