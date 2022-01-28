@@ -24,5 +24,7 @@ public class StringExerciseMain {
         UpperAndLowerCase.performTask("A Quick Brown Fox");
         //Q.N. 7)
         SpecialCharacterFind.performTask();
+        //Q.N. 8)
+        ConvertCase.performTask();
     }
 }
