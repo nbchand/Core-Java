@@ -16,6 +16,8 @@ public class StringExerciseMain {
         LastChar.performTask("Hello");
         //Q.N. 2)
         CheckEqual.performTask();
+        //Q.N. 3)
+        StringToArray.performTask();
         //Q.N. 4)
         StringReverse.performTask();
         //Q.N. 5)
