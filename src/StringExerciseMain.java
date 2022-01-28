@@ -28,5 +28,7 @@ public class StringExerciseMain {
         SpecialCharacterFind.performTask();
         //Q.N. 8)
         ConvertCase.performTask();
+        //Q.N. 9)
+        StringArrayLength.performTask();
     }
 }
