@@ -1,5 +1,6 @@
 import com.infodev.string_exercise.CheckEqual;
 import com.infodev.string_exercise.LastChar;
+import com.infodev.string_exercise.StringReverse;
 
 /**
  * A single main class for all the classes inside com.infodev.string_exercise package
@@ -17,5 +18,7 @@ public class StringExerciseMain {
         LastChar.performTask("Hello");
         //Q.N. 2)
         CheckEqual.performTask();
+        //Q.N. 4)
+        StringReverse.performTask();
     }
 }
