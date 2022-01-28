@@ -30,5 +30,7 @@ public class StringExerciseMain {
         ConvertCase.performTask();
         //Q.N. 9)
         StringArrayLength.performTask();
+        //Q.N. 10)
+        SortArrayByLength.performTask();
     }
 }
