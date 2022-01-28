@@ -22,5 +22,7 @@ public class StringExerciseMain {
         WhiteSpaceNumbers.performTask("Hello world  ");
         //Q.N. 6)
         UpperAndLowerCase.performTask("A Quick Brown Fox");
+        //Q.N. 7)
+        SpecialCharacterFind.performTask();
     }
 }
