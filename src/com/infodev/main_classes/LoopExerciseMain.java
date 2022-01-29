@@ -1,5 +1,5 @@
 //main class for loop_exercise package
-package com.infodev;
+package com.infodev.main_classes;
 
 import com.infodev.loop_exercise.*;
 

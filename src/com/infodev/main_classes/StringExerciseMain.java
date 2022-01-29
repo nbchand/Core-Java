@@ -1,3 +1,5 @@
+package com.infodev.main_classes;
+
 import com.infodev.string_exercise.*;
 
 /**

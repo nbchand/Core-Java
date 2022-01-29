@@ -1,5 +1,5 @@
 //main class for conditional_statement package
-package com.infodev;
+package com.infodev.main_classes;
 
 import com.infodev.conditional_statement.*;
 
