@@ -24,5 +24,7 @@ public class ClassAndObjectMain {
         AreaOfRectangle.performTask();
         //Q.N. 7)
         Average.performTask();
+        //Q.N. 8)
+        Complex.performTask();
     }
 }
