@@ -1,6 +1,7 @@
 package com.infodev.main_classes;
 
 import com.infodev.class_and_object.Area;
+import com.infodev.class_and_object.Rectangle;
 import com.infodev.class_and_object.Student;
 import com.infodev.class_and_object.Triangle;
 
@@ -20,5 +21,7 @@ public class ClassAndObjectMain {
         Student.handleTwoObjects();
         //Q.N. 4)
         Triangle.performTask();
+        //Q.N. 5)
+        Rectangle.performTask();
     }
 }
