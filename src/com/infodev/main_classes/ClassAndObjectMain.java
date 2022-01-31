@@ -1,9 +1,6 @@
 package com.infodev.main_classes;
 
-import com.infodev.class_and_object.Area;
-import com.infodev.class_and_object.Rectangle;
-import com.infodev.class_and_object.Student;
-import com.infodev.class_and_object.Triangle;
+import com.infodev.class_and_object.*;
 
 /**
  * A main class to run all other classes in the package com.infodev.class_and_object
@@ -23,5 +20,7 @@ public class ClassAndObjectMain {
         Triangle.performTask();
         //Q.N. 5)
         Rectangle.performTask();
+        //Q.N. 6)
+        AreaOfRectangle.performTask();
     }
 }
