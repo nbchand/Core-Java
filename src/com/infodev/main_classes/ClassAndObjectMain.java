@@ -22,5 +22,7 @@ public class ClassAndObjectMain {
         Rectangle.performTask();
         //Q.N. 6)
         AreaOfRectangle.performTask();
+        //Q.N. 7)
+        Average.performTask();
     }
 }
