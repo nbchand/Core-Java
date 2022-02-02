@@ -11,7 +11,7 @@ import java.util.*;
 public class MoneyDistributor {
 
     //entities involved in this process
-    private static final int TOTALBILL = 5000;
+    private static final int TOTALBILL = 50;
     private static final int TOTALPEOPLE = 5;
     private static final int AVERAGEBILL = (TOTALBILL / TOTALPEOPLE);
 
@@ -29,11 +29,11 @@ public class MoneyDistributor {
     public static void main(String[] args) {
 
         //records bill payers
-        payerList.put("Messi", 100);
-        payerList.put("Ronaldo", 200);
-        payerList.put("Suarez", 300);
-        payerList.put("Torres", 4400);
-        payerList.put("Zlatan", 0);
+        payerList.put("Jayant", 5);
+        payerList.put("Badsna", 3);
+        payerList.put("Kul", 12);
+        payerList.put("Nirajan", 20);
+        payerList.put("Sagar", 10);
 
         //calculates the sum of all the individual bill paid and store them
         Integer sum = payerList.values() //extracts the integer values from the map
