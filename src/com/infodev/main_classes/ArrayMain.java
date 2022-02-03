@@ -27,5 +27,7 @@ public class ArrayMain {
         SortArray.performTask();
         //Q.N. 17)
         IntegerOccurrence.performTask();
+        //Q.N. 18) it is same as question no. 16
+        NegativeOneSide.performTask();
     }
 }
