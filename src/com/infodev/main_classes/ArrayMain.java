@@ -1,9 +1,6 @@
 package com.infodev.main_classes;
 
-import com.infodev.array_exercise.InputAndDisplay;
-import com.infodev.array_exercise.LargestAndSmallest;
-import com.infodev.array_exercise.MultipleOperations;
-import com.infodev.array_exercise.SumAndAverage;
+import com.infodev.array_exercise.*;
 
 /**
  * A main class to run all other classes in the package com.infodev.array_exercise
@@ -21,5 +18,10 @@ public class ArrayMain {
         LargestAndSmallest.performTask();
         //Q.N. 13)
         MultipleOperations.performTask();
+
+        //Q.N. 14) is same as Q.N. 12)
+
+        //Q.N. 15)
+        ReverseArray.performTask();
     }
 }
