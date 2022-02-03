@@ -25,5 +25,7 @@ public class ArrayMain {
         ReverseArray.performTask();
         //Q.N. 16)
         SortArray.performTask();
+        //Q.N. 17)
+        IntegerOccurrence.performTask();
     }
 }
