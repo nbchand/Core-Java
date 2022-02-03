@@ -28,5 +28,7 @@ public class ClassAndObjectMain {
         Complex.performTask();
         //Q.N. 9)
         Employee.performTask();
+        //Q.N. 10)
+        AddDistance.performTask();
     }
 }
