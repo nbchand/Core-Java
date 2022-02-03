@@ -1,4 +1,4 @@
-package com.infodev.extras;
+package com.infodev.extras.MoneyDistributor;
 
 import java.util.*;
 
@@ -11,35 +11,42 @@ import java.util.*;
 public class MoneyDistributor {
 
     //entities involved in this process
-    private static final int TOTALBILL = 50;
+    private static final float TOTALBILL = 53;
     private static final int TOTALPEOPLE = 5;
-    private static final int AVERAGEBILL = (TOTALBILL / TOTALPEOPLE);
+    private static final float AVERAGEBILL = (TOTALBILL / TOTALPEOPLE);
 
     //stores the bill payers along with the amount they paid
-    private static Map<String, Integer> payerList = new HashMap<>();
+    private static Map<String, Float> payerList = new HashMap<>();
     //stores the extra-bill payers along with the amount they need to receive
-    private static Map<String, Integer> receiverList = new HashMap<>();
+    private static Map<String, Float> receiverList = new HashMap<>();
     //stores the non-bill or less than average bill payers along with the amount they need to pay
-    private static Map<String, Integer> nonPayerList = new HashMap<>();
+    private static Map<String, Float> nonPayerList = new HashMap<>();
 
     /**
      * Main method of the class
+     *
      * @param args Command line arguments
      */
     public static void main(String[] args) {
 
         //records bill payers
-        payerList.put("Jayant", 5);
-        payerList.put("Badsna", 3);
-        payerList.put("Kul", 12);
-        payerList.put("Nirajan", 20);
-        payerList.put("Sagar", 10);
+        payerList.put("Jayant", 5f);
+        payerList.put("Badsna", 3f);
+        payerList.put("Kul", 15f);
+        payerList.put("Nirajan", 20f);
+        payerList.put("Sagar", 10f);
+
+//        //calculates the sum of all the individual bill paid and store them
+//        Integer sum = payerList.values() //extracts the integer values from the map
+//                .stream()//converts the extracted integers into stream objects
+//                .mapToInt(Integer::intValue)//converts the stream object into stream of integers(calls intValue() of Integer class)
+//                .sum();//calculates the sum of all the intStreams
 
         //calculates the sum of all the individual bill paid and store them
-        Integer sum = payerList.values() //extracts the integer values from the map
-                .stream()//converts the extracted integers into stream objects
-                .mapToInt(Integer::intValue)//converts the stream object into stream of integers(calls intValue() of Integer class)
-                .sum();//calculates the sum of all the intStreams
+        Float sum = 0f;
+        for (Map.Entry<String, Float> entry : payerList.entrySet()) {
+            sum = sum + entry.getValue();
+        }
 
         //executes if total bill is paid
         if (sum == TOTALBILL) {
@@ -75,8 +82,8 @@ public class MoneyDistributor {
      * Records the people who paid more than average bill
      */
     public static void generateReceiverList() {
-        //if a person paid more than average bill he/she is added to recieverList
-        for (Map.Entry<String, Integer> payer : payerList.entrySet()) {
+        //if a person paid more than average bill he/she is added to receiverList
+        for (Map.Entry<String, Float> payer : payerList.entrySet()) {
             if (payer.getValue() > AVERAGEBILL) {
                 receiverList.put(payer.getKey(), (payer.getValue() - AVERAGEBILL));
             }
@@ -89,7 +96,7 @@ public class MoneyDistributor {
      */
     public static void generateNonPayerList() {
         //if a person paid less than average bill he/she is added to non-payers list
-        for (Map.Entry<String, Integer> nonPayer : payerList.entrySet()) {
+        for (Map.Entry<String, Float> nonPayer : payerList.entrySet()) {
             if (nonPayer.getValue() < AVERAGEBILL) {
                 nonPayerList.put(nonPayer.getKey(), (AVERAGEBILL - nonPayer.getValue()));
             }
@@ -104,17 +111,17 @@ public class MoneyDistributor {
     public static void payDues() {
         //temp variables to store information for later use because we can't delete a Map object while iterating over it
         List<String> duePayers = new ArrayList<>();
-        Map<String, Integer> newNonPayers = new HashMap<>();
+        Map<String, Float> newNonPayers = new HashMap<>();
 
         /*
         iterates over all the non-payers, find out how much and who they need to pay
         add the non-payers to payers list and remove their name from non-payers list clearing their dues
          */
-        for (Map.Entry<String, Integer> notPaid : nonPayerList.entrySet()) {
+        for (Map.Entry<String, Float> notPaid : nonPayerList.entrySet()) {
             //extracts a non-payer
             String person = notPaid.getKey();
             //extracts how much amount the person needs to pay
-            int amount = notPaid.getValue();
+            float amount = notPaid.getValue();
 
             //identifies a receiver who needs to be paid
             String receiver = findReceiver();
@@ -125,7 +132,7 @@ public class MoneyDistributor {
             }
 
             //prints the information regarding the non-payer along with the amount he/she needs to pay to the receiver
-            System.out.println(person + " needs to pay Rs." + amount + " to " + receiver);
+            System.out.printf("%s needs to pay Rs.%.2f to %s\n",person,amount,receiver);
             //adds the non-payer to payer-list now
             payerList.put(person, amount + (payerList.get(person)));
 
@@ -133,7 +140,7 @@ public class MoneyDistributor {
             // along with the amount he/she owes to others
             if (amount > receiverList.get(receiver)) {
                 newNonPayers.put(receiver, amount - receiverList.get(receiver));
-                receiverList.put(receiver, 0);
+                receiverList.put(receiver, 0f);
             }
 
             //if the receiver receives less than or equal to the sum he/she needed, the receiver list is just updated with new amount
@@ -151,13 +158,14 @@ public class MoneyDistributor {
     }
 
     /**
-     *Identifies the receiver who paid more than average and needs to get paid by the non-payers
+     * Identifies the receiver who paid more than average and needs to get paid by the non-payers
+     *
      * @return A String containing person name who needs to get paid for his extra payment
      */
     public static String findReceiver() {
         String receiver = "";
         //finds a receiver who needs to be paid something(i.e. more than 0)
-        for (Map.Entry<String, Integer> person : receiverList.entrySet()) {
+        for (Map.Entry<String, Float> person : receiverList.entrySet()) {
             if (person.getValue() != 0) {
                 receiver = person.getKey();
                 break;
@@ -169,6 +177,7 @@ public class MoneyDistributor {
 
     /**
      * Removes the people from non-payers list
+     *
      * @param payers List of String which consists the names of people that need to be removed from non-payers list
      */
     public static void removeAfterPaying(List<String> payers) {
