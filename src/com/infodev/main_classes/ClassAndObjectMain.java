@@ -26,5 +26,7 @@ public class ClassAndObjectMain {
         Average.performTask();
         //Q.N. 8)
         Complex.performTask();
+        //Q.N. 9)
+        Employee.performTask();
     }
 }
