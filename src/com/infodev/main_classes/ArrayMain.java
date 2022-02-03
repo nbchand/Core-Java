@@ -23,5 +23,7 @@ public class ArrayMain {
 
         //Q.N. 15)
         ReverseArray.performTask();
+        //Q.N. 16)
+        SortArray.performTask();
     }
 }
