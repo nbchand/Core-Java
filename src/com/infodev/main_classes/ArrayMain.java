@@ -2,6 +2,7 @@ package com.infodev.main_classes;
 
 import com.infodev.array_exercise.InputAndDisplay;
 import com.infodev.array_exercise.LargestAndSmallest;
+import com.infodev.array_exercise.MultipleOperations;
 import com.infodev.array_exercise.SumAndAverage;
 
 /**
@@ -18,5 +19,7 @@ public class ArrayMain {
         SumAndAverage.performTask();
         //Q.N. 12)
         LargestAndSmallest.performTask();
+        //Q.N. 13)
+        MultipleOperations.performTask();
     }
 }
