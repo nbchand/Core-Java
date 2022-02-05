@@ -31,5 +31,7 @@ public class ArrayMain {
         NegativeOneSide.performTask();
         //Q.N. 19)
         PairWithSum.performTask();
+        //Q.N. 20)
+        Duplicate.performTask();
     }
 }
