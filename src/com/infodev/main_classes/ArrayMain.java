@@ -29,5 +29,7 @@ public class ArrayMain {
         IntegerOccurrence.performTask();
         //Q.N. 18) it is same as question no. 16
         NegativeOneSide.performTask();
+        //Q.N. 19)
+        PairWithSum.performTask();
     }
 }
