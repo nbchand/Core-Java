@@ -24,5 +24,7 @@ public class FunctionMain {
         FactorialOfNumber.performTask();
         //Q.N. 7)
         HighestLowestInThree.performTask();
+        //Q.N. 8)
+        SumOfThree.performTask();
     }
 }
