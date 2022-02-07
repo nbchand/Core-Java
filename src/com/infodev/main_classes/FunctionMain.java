@@ -1,6 +1,7 @@
 package com.infodev.main_classes;
 
 import com.infodev.function.MainProgram;
+import com.infodev.function.ProductOfTwo;
 import com.infodev.function.TotalOfTwo;
 
 /**
@@ -15,5 +16,7 @@ public class FunctionMain {
         MainProgram.performTask();
         //Q.N. 2)
         TotalOfTwo.performTask();
+        //Q.N. 3)
+        ProductOfTwo.performTask();
     }
 }
