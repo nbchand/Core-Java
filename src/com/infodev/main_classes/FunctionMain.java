@@ -22,5 +22,7 @@ public class FunctionMain {
         VotingEligibility.performTask();
         //Q.N. 6)
         FactorialOfNumber.performTask();
+        //Q.N. 7)
+        HighestLowestInThree.performTask();
     }
 }
