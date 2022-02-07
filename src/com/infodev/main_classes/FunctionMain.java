@@ -46,5 +46,7 @@ public class FunctionMain {
         SameNumber.performTask();
         //Q.N. 18)
         MaxAndMin.performTask();
+        //Q.N. 19)
+        SumOfTwo.performTask();
     }
 }
