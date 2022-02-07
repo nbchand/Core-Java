@@ -50,5 +50,7 @@ public class FunctionMain {
         SumOfTwo.performTask();
         //Q.N. 20)
         Result.performTask();
+        //Q.N. 21)
+        CheckPalindrome.performTask();
     }
 }
