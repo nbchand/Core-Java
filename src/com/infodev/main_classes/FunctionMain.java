@@ -1,5 +1,6 @@
 package com.infodev.main_classes;
 
+import com.infodev.function.CircleAreaPerimeter;
 import com.infodev.function.MainProgram;
 import com.infodev.function.ProductOfTwo;
 import com.infodev.function.TotalOfTwo;
@@ -18,5 +19,7 @@ public class FunctionMain {
         TotalOfTwo.performTask();
         //Q.N. 3)
         ProductOfTwo.performTask();
+        //Q.N. 4)
+        CircleAreaPerimeter.performTask();
     }
 }
