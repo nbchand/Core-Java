@@ -44,5 +44,7 @@ public class FunctionMain {
         WordsCount.performTask();
         //Q.N. 17)
         SameNumber.performTask();
+        //Q.N. 18)
+        MaxAndMin.performTask();
     }
 }
