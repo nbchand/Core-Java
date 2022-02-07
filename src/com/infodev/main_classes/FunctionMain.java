@@ -54,5 +54,7 @@ public class FunctionMain {
         CheckPalindrome.performTask();
         //Q.N. 22)
         VowelsCount.performTask();
+        //Q.N. 23)
+        ContainsVowel.performTask();
     }
 }
