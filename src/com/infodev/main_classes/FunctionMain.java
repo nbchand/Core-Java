@@ -30,5 +30,7 @@ public class FunctionMain {
         CheckEven.performTask();
         //Q.N. 10)
         DisplayRange.performTask();
+        //Q.N. 11)
+        OddInRange.performTask();
     }
 }
