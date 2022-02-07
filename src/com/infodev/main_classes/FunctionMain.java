@@ -26,5 +26,7 @@ public class FunctionMain {
         HighestLowestInThree.performTask();
         //Q.N. 8)
         SumOfThree.performTask();
+        //Q.N. 9)
+        CheckEven.performTask();
     }
 }
