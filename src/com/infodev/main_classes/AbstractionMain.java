@@ -1,5 +1,6 @@
 package com.infodev.main_classes;
 
+import com.infodev.abstraction.BankImpl;
 import com.infodev.abstraction.ParentChildImpl;
 
 /**
@@ -12,5 +13,7 @@ public class AbstractionMain {
     public static void main(String[] args) {
         //Q.N. 1)
         ParentChildImpl.performTask();
+        //Q.N. 2)
+        BankImpl.performTask();
     }
 }
