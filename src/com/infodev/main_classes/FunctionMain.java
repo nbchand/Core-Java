@@ -34,5 +34,7 @@ public class FunctionMain {
         OddInRange.performTask();
         //Q.N. 12)
         CheckPrime.performTask();
+        //Q.N. 13)
+        PrimeInRange.performTask();
     }
 }
