@@ -1,8 +1,6 @@
 package com.infodev.main_classes;
 
-import com.infodev.inner_class.LocalInnerClassExample;
-import com.infodev.inner_class.MemberInnerClassExample;
-import com.infodev.inner_class.StaticNestedClassExample;
+import com.infodev.inner_class.*;
 
 /**
  * A main class to run all other classes in the package com.infodev.inner_class
@@ -18,5 +16,9 @@ public class InnerClassMain {
         LocalInnerClassExample.performTask();
         //Q.N 11)
         MemberInnerClassExample.performTask();
+        //Q.N 12)
+        AnonymousUsingClass.performTask();
+        //Q.N 12)
+        AnonymousUsingInterface.performTask();
     }
 }
