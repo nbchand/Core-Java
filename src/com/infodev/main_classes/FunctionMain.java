@@ -60,5 +60,7 @@ public class FunctionMain {
         FactorialByRecursion.performTask();
         //Q.N. 25)
         GCDByRecursion.performTask();
+        //Q.N. 26)
+        CircleArea.performTask();
     }
 }
