@@ -1,6 +1,7 @@
 package com.infodev.main_classes;
 
 import com.infodev.inner_class.LocalInnerClassExample;
+import com.infodev.inner_class.MemberInnerClassExample;
 import com.infodev.inner_class.StaticNestedClassExample;
 
 /**
@@ -15,5 +16,7 @@ public class InnerClassMain {
         StaticNestedClassExample.performTask();
         //Q.N 10)
         LocalInnerClassExample.performTask();
+        //Q.N 11)
+        MemberInnerClassExample.performTask();
     }
 }
