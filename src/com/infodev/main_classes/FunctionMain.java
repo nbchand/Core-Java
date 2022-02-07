@@ -1,9 +1,6 @@
 package com.infodev.main_classes;
 
-import com.infodev.function.CircleAreaPerimeter;
-import com.infodev.function.MainProgram;
-import com.infodev.function.ProductOfTwo;
-import com.infodev.function.TotalOfTwo;
+import com.infodev.function.*;
 
 /**
  * A main class to run all other classes in the package com.infodev.function
@@ -21,5 +18,7 @@ public class FunctionMain {
         ProductOfTwo.performTask();
         //Q.N. 4)
         CircleAreaPerimeter.performTask();
+        //Q.N. 5)
+        VotingEligibility.performTask();
     }
 }
