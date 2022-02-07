@@ -20,5 +20,7 @@ public class FunctionMain {
         CircleAreaPerimeter.performTask();
         //Q.N. 5)
         VotingEligibility.performTask();
+        //Q.N. 6)
+        FactorialOfNumber.performTask();
     }
 }
