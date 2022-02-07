@@ -1,5 +1,6 @@
 package com.infodev.main_classes;
 
+import com.infodev.oop_practice.Animal;
 import com.infodev.oop_practice.MethodOverloading;
 
 /**
@@ -14,5 +15,7 @@ public class OOPMain {
         MethodOverloading.performTask();
         //Q.N. 2)
         //created an interface named Test with talk() and walk() methods
+        //Q.N. 3)
+        Animal.performTask();
     }
 }
