@@ -32,5 +32,7 @@ public class FunctionMain {
         DisplayRange.performTask();
         //Q.N. 11)
         OddInRange.performTask();
+        //Q.N. 12)
+        CheckPrime.performTask();
     }
 }
