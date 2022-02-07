@@ -22,5 +22,7 @@ public class AbstractionMain {
         AnimalsImpl.performTask();
         //Q.N. 6)
         AreaImpl.performTask();
+        //Q.N. 7)
+        AreaArrayImpl.performTask();
     }
 }
