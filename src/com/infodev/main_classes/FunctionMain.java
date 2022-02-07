@@ -36,5 +36,7 @@ public class FunctionMain {
         CheckPrime.performTask();
         //Q.N. 13)
         PrimeInRange.performTask();
+        //Q.N. 14)
+        MultiplicationTable.performTask();
     }
 }
