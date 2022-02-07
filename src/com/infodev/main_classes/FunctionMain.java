@@ -58,5 +58,7 @@ public class FunctionMain {
         ContainsVowel.performTask();
         //Q.N. 24)
         FactorialByRecursion.performTask();
+        //Q.N. 25)
+        GCDByRecursion.performTask();
     }
 }
