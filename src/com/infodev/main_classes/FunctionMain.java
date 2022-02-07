@@ -38,5 +38,7 @@ public class FunctionMain {
         PrimeInRange.performTask();
         //Q.N. 14)
         MultiplicationTable.performTask();
+        //Q.N. 15)
+        DigitsInNum.performTask();
     }
 }
