@@ -12,5 +12,7 @@ public class OOPMain {
     public static void main(String[] args) {
         //Q.N. 1)
         MethodOverloading.performTask();
+        //Q.N. 2)
+        //created an interface named Test with talk() and walk() methods
     }
 }
