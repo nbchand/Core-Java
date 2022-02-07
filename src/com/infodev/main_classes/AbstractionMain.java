@@ -1,9 +1,6 @@
 package com.infodev.main_classes;
 
-import com.infodev.abstraction.AbstractImpl;
-import com.infodev.abstraction.BankImpl;
-import com.infodev.abstraction.MarksImpl;
-import com.infodev.abstraction.ParentChildImpl;
+import com.infodev.abstraction.*;
 
 /**
  * A main class to run all other classes in the package com.infodev.abstraction
@@ -21,5 +18,7 @@ public class AbstractionMain {
         MarksImpl.performTask();
         //Q.N. 4)
         AbstractImpl.performTask();
+        //Q.N. 5)
+        AnimalsImpl.performTask();
     }
 }
