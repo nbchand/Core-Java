@@ -1,3 +1,7 @@
+/*
+13.WAP that displays all the prime numbers between 1 and 1000. Use the above
+checkPrime function to identify the prime number.
+ */
 package com.infodev.function;
 
 /**
