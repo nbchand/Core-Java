@@ -56,5 +56,7 @@ public class FunctionMain {
         VowelsCount.performTask();
         //Q.N. 23)
         ContainsVowel.performTask();
+        //Q.N. 24)
+        FactorialByRecursion.performTask();
     }
 }
