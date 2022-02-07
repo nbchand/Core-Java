@@ -40,5 +40,7 @@ public class FunctionMain {
         MultiplicationTable.performTask();
         //Q.N. 15)
         DigitsInNum.performTask();
+        //Q.N. 16)
+        WordsCount.performTask();
     }
 }
