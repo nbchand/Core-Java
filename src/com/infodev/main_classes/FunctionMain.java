@@ -62,5 +62,7 @@ public class FunctionMain {
         GCDByRecursion.performTask();
         //Q.N. 26)
         CircleArea.performTask();
+        //Q.N. 27)
+        RandomNumberGeneration.performTask();
     }
 }
