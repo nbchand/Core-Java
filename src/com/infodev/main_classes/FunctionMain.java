@@ -48,5 +48,7 @@ public class FunctionMain {
         MaxAndMin.performTask();
         //Q.N. 19)
         SumOfTwo.performTask();
+        //Q.N. 20)
+        Result.performTask();
     }
 }
