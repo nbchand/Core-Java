@@ -42,5 +42,7 @@ public class FunctionMain {
         DigitsInNum.performTask();
         //Q.N. 16)
         WordsCount.performTask();
+        //Q.N. 17)
+        SameNumber.performTask();
     }
 }
