@@ -28,5 +28,7 @@ public class FunctionMain {
         SumOfThree.performTask();
         //Q.N. 9)
         CheckEven.performTask();
+        //Q.N. 10)
+        DisplayRange.performTask();
     }
 }
