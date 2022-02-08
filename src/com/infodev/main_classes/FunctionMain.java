@@ -84,5 +84,7 @@ public class FunctionMain {
         AllPossibility.performTask();
         //Q.N. 38)
         Anagram.performTask();
+        //Q.N. 39)
+        FileReadWrite.performTask();
     }
 }
