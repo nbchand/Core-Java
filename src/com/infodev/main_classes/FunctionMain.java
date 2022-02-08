@@ -69,5 +69,7 @@ public class FunctionMain {
         LeapYear.performTask();
         //Q.N. 30)
         Password.performTask();
+        //Q.N. 31)
+        Triangle.performTask();
     }
 }
