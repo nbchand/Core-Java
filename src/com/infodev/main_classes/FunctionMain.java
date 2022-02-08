@@ -86,5 +86,7 @@ public class FunctionMain {
         Anagram.performTask();
         //Q.N. 39)
         FileReadWrite.performTask();
+        //Q.N. 40)
+        BalancedArray.performTask();
     }
 }
