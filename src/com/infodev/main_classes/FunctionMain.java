@@ -80,5 +80,7 @@ public class FunctionMain {
         SumOfSeries.performTask();
         //Q.N. 36)
         ArmstrongAndPerfect.performTask();
+        //Q.N. 37)
+        AllPossibility.performTask();
     }
 }
