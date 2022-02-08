@@ -82,5 +82,7 @@ public class FunctionMain {
         ArmstrongAndPerfect.performTask();
         //Q.N. 37)
         AllPossibility.performTask();
+        //Q.N. 38)
+        Anagram.performTask();
     }
 }
