@@ -76,5 +76,7 @@ public class FunctionMain {
         //Q.N. 33) is same as Q.N. 2) total of two numbers
         //Q.N. 34)
         SwapNumbers.performTask();
+        //Q.N. 35)
+        SumOfSeries.performTask();
     }
 }
