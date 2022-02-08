@@ -67,5 +67,7 @@ public class FunctionMain {
         //Q.N. 28) is same as Q.N. 16) word count in as sentence
         //Q.N. 29)
         LeapYear.performTask();
+        //Q.N. 30)
+        Password.performTask();
     }
 }
