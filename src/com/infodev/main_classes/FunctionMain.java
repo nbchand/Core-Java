@@ -71,5 +71,7 @@ public class FunctionMain {
         Password.performTask();
         //Q.N. 31)
         Triangle.performTask();
+        //Q.N. 32)
+        CurrentDateTime.performTask();
     }
 }
