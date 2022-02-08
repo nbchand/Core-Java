@@ -90,5 +90,7 @@ public class FunctionMain {
         BalancedArray.performTask();
         //Q.N. 41)
         IntegerAddition.performTask();
+        //Q.N. 42)
+        StringConcat.performTask();
     }
 }
