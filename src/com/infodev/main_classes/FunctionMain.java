@@ -88,5 +88,7 @@ public class FunctionMain {
         FileReadWrite.performTask();
         //Q.N. 40)
         BalancedArray.performTask();
+        //Q.N. 41)
+        IntegerAddition.performTask();
     }
 }
