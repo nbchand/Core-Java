@@ -78,5 +78,7 @@ public class FunctionMain {
         SwapNumbers.performTask();
         //Q.N. 35)
         SumOfSeries.performTask();
+        //Q.N. 36)
+        ArmstrongAndPerfect.performTask();
     }
 }
