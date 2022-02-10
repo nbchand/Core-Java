@@ -47,5 +47,7 @@ public class StringExerciseMain {
         ConsonantReplacement.performTask();
         //Q.N. 16)
         Epresent.performTask();
+        //Q.N. 17)
+        LifePresent.performTask();
     }
 }
