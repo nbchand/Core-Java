@@ -70,5 +70,7 @@ public class StringExerciseMain {
         //Q.N. 29) is similar to 28
         //Q.N. 30)
         UnicodeCount.performTask();
+        //Q.N. 71)
+        Removebandc.performTask();
     }
 }
