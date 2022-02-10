@@ -57,5 +57,7 @@ public class ArrayMain {
         MaxIndex.performTask();
         //Q.N. 32)
         AverageOfArray.performTask();
+        //Q.N. 33)
+        RemoveElement.performTask();
     }
 }
