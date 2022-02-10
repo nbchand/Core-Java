@@ -51,5 +51,7 @@ public class ArrayMain {
         UnionIntersection.performTask();
         //Q.N. 29)
         TripletSum.performTask();
+        //Q.N. 30)
+        SmallestPositiveMissing.performTask();
     }
 }
