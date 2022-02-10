@@ -78,5 +78,7 @@ public class StringExerciseMain {
         LexicographicRank.performTask();
         //Q.N. 74)
         DuplicateInString.performTask();
+        //Q.N. 75)
+        StringRotation.performTask();
     }
 }
