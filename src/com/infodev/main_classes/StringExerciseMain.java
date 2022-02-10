@@ -61,5 +61,7 @@ public class StringExerciseMain {
         DigitsOnly.performTask();
         //Q.N. 25)
         RemoveChar.performTask();
+        //Q.N. 26)
+        StringConcat.performTask();
     }
 }
