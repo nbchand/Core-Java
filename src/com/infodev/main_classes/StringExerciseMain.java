@@ -1,5 +1,6 @@
 package com.infodev.main_classes;
 
+import com.infodev.array_exercise.DifferentCharacters;
 import com.infodev.string_exercise.*;
 
 /**
@@ -40,5 +41,7 @@ public class StringExerciseMain {
         OrangeInString.performTask();
         //Q.N. 13)
         FirstAndLastOccurrence.performTask();
+        //Q.N. 14)
+        DifferentCharacters.performTask();
     }
 }
