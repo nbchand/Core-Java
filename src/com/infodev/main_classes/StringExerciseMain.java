@@ -36,5 +36,7 @@ public class StringExerciseMain {
         SortArrayByLength.performTask();
         //Q.N. 11)
         AlphabeticSort.performTask();
+        //Q.N. 12)
+        OrangeInString.performTask();
     }
 }
