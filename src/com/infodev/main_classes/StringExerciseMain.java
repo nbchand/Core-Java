@@ -65,5 +65,7 @@ public class StringExerciseMain {
         StringConcat.performTask();
         //Q.N. 27)
         CharCount.performTask();
+        //Q.N. 28)
+        Unicode.performTask();
     }
 }
