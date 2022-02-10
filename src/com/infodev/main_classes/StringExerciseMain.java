@@ -53,5 +53,7 @@ public class StringExerciseMain {
         LastIndex.performTask();
         //Q.N. 20)
         CreateNewString.performTask();
+        //Q.N. 22)
+        CharAtEven.performTask();
     }
 }
