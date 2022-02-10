@@ -76,5 +76,7 @@ public class StringExerciseMain {
         FirstNonRepeating.performTask();
         //Q.N. 73)
         LexicographicRank.performTask();
+        //Q.N. 74)
+        DuplicateInString.performTask();
     }
 }
