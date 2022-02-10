@@ -38,5 +38,7 @@ public class StringExerciseMain {
         AlphabeticSort.performTask();
         //Q.N. 12)
         OrangeInString.performTask();
+        //Q.N. 13)
+        FirstAndLastOccurrence.performTask();
     }
 }
