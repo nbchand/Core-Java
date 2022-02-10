@@ -45,5 +45,7 @@ public class StringExerciseMain {
         DifferentCharacters.performTask();
         //Q.N. 15)
         ConsonantReplacement.performTask();
+        //Q.N. 16)
+        Epresent.performTask();
     }
 }
