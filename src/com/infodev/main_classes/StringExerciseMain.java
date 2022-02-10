@@ -82,5 +82,7 @@ public class StringExerciseMain {
         StringRotation.performTask();
         //Q.N. 76)
         WildCardCharacter.performTask();
+        //Q.N. 77)
+        SmallestWindow.performTask();
     }
 }
