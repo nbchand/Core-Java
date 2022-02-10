@@ -55,5 +55,7 @@ public class ArrayMain {
         SmallestPositiveMissing.performTask();
         //Q.N. 31)
         MaxIndex.performTask();
+        //Q.N. 32)
+        AverageOfArray.performTask();
     }
 }
