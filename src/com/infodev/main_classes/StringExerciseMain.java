@@ -72,5 +72,7 @@ public class StringExerciseMain {
         UnicodeCount.performTask();
         //Q.N. 71)
         Removebandc.performTask();
+        //Q.N. 72)
+        FirstNonRepeating.performTask();
     }
 }
