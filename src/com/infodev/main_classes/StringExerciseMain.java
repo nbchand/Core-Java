@@ -67,5 +67,8 @@ public class StringExerciseMain {
         CharCount.performTask();
         //Q.N. 28)
         Unicode.performTask();
+        //Q.N. 29) is similar to 28
+        //Q.N. 30)
+        UnicodeCount.performTask();
     }
 }
