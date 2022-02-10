@@ -74,5 +74,7 @@ public class StringExerciseMain {
         Removebandc.performTask();
         //Q.N. 72)
         FirstNonRepeating.performTask();
+        //Q.N. 73)
+        LexicographicRank.performTask();
     }
 }
