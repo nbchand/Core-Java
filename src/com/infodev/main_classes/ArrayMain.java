@@ -33,5 +33,7 @@ public class ArrayMain {
         PairWithSum.performTask();
         //Q.N. 20)
         Duplicate.performTask();
+        //Q.N. 21)
+        FirstRepeating.performTask();
     }
 }
