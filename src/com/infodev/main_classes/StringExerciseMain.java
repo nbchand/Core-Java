@@ -88,5 +88,7 @@ public class StringExerciseMain {
         AdjacentDuplicate.performTask();
         //Q.N. 79)
         StringAppend.performTask();
+        //Q.N. 80)
+        LastCharacterSwap.performTask();
     }
 }
