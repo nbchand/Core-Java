@@ -34,5 +34,7 @@ public class StringExerciseMain {
         StringArrayLength.performTask();
         //Q.N. 10)
         SortArrayByLength.performTask();
+        //Q.N. 11)
+        AlphabeticSort.performTask();
     }
 }
