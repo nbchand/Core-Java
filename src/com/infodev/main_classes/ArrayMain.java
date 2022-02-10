@@ -47,5 +47,7 @@ public class ArrayMain {
         MaxProductOfSubArray.performTask();
         //Q.N. 27)
         MaxSubArray.performTask();
+        //Q.N. 28)
+        UnionIntersection.performTask();
     }
 }
