@@ -49,5 +49,7 @@ public class StringExerciseMain {
         Epresent.performTask();
         //Q.N. 17)
         LifePresent.performTask();
+        //Q.N. 18)
+        LastIndex.performTask();
     }
 }
