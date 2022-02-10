@@ -51,5 +51,7 @@ public class StringExerciseMain {
         LifePresent.performTask();
         //Q.N. 18)
         LastIndex.performTask();
+        //Q.N. 20)
+        CreateNewString.performTask();
     }
 }
