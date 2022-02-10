@@ -49,5 +49,7 @@ public class ArrayMain {
         MaxSubArray.performTask();
         //Q.N. 28)
         UnionIntersection.performTask();
+        //Q.N. 29)
+        TripletSum.performTask();
     }
 }
