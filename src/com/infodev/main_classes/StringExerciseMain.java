@@ -55,5 +55,7 @@ public class StringExerciseMain {
         CreateNewString.performTask();
         //Q.N. 22)
         CharAtEven.performTask();
+        //Q.N. 23)
+        StringContainsAnotherString.performTask();
     }
 }
