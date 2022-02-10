@@ -57,5 +57,7 @@ public class StringExerciseMain {
         CharAtEven.performTask();
         //Q.N. 23)
         StringContainsAnotherString.performTask();
+        //Q.N. 24)
+        DigitsOnly.performTask();
     }
 }
