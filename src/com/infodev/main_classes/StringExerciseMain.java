@@ -59,5 +59,7 @@ public class StringExerciseMain {
         StringContainsAnotherString.performTask();
         //Q.N. 24)
         DigitsOnly.performTask();
+        //Q.N. 25)
+        RemoveChar.performTask();
     }
 }
