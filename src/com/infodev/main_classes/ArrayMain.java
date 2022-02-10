@@ -43,5 +43,7 @@ public class ArrayMain {
         SubArrayWithZeroSum.performTask();
         //Q.N. 25)
         LargestElementFactorial.performTask();
+        //Q.N. 26)
+        MaxProductOfSubArray.performTask();
     }
 }
