@@ -53,5 +53,7 @@ public class ArrayMain {
         TripletSum.performTask();
         //Q.N. 30)
         SmallestPositiveMissing.performTask();
+        //Q.N. 31)
+        MaxIndex.performTask();
     }
 }
