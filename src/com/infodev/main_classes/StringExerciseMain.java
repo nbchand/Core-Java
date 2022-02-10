@@ -80,5 +80,7 @@ public class StringExerciseMain {
         DuplicateInString.performTask();
         //Q.N. 75)
         StringRotation.performTask();
+        //Q.N. 76)
+        WildCardCharacter.performTask();
     }
 }
