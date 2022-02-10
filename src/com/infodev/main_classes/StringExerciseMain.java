@@ -84,5 +84,7 @@ public class StringExerciseMain {
         WildCardCharacter.performTask();
         //Q.N. 77)
         SmallestWindow.performTask();
+        //Q.N. 78)
+        AdjacentDuplicate.performTask();
     }
 }
