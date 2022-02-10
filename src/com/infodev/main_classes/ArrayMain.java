@@ -41,5 +41,7 @@ public class ArrayMain {
         OddEvenIndex.performTask();
         //Q.N. 24)
         SubArrayWithZeroSum.performTask();
+        //Q.N. 25)
+        LargestElementFactorial.performTask();
     }
 }
