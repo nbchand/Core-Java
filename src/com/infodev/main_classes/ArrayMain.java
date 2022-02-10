@@ -39,5 +39,7 @@ public class ArrayMain {
         FirstNonRepeating.performTask();
         //Q.N. 23)
         OddEvenIndex.performTask();
+        //Q.N. 24)
+        SubArrayWithZeroSum.performTask();
     }
 }
