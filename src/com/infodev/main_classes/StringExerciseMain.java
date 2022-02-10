@@ -86,5 +86,7 @@ public class StringExerciseMain {
         SmallestWindow.performTask();
         //Q.N. 78)
         AdjacentDuplicate.performTask();
+        //Q.N. 79)
+        StringAppend.performTask();
     }
 }
