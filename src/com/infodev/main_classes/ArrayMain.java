@@ -35,5 +35,7 @@ public class ArrayMain {
         Duplicate.performTask();
         //Q.N. 21)
         FirstRepeating.performTask();
+        //Q.N. 22)
+        FirstNonRepeating.performTask();
     }
 }
