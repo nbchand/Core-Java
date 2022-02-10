@@ -59,5 +59,7 @@ public class ArrayMain {
         AverageOfArray.performTask();
         //Q.N. 33)
         RemoveElement.performTask();
+        //Q.N. 34)
+        InsertAtLocation.performTask();
     }
 }
