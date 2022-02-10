@@ -61,5 +61,7 @@ public class ArrayMain {
         RemoveElement.performTask();
         //Q.N. 34)
         InsertAtLocation.performTask();
+        //Q.N. 35)
+        DuplicateInStringArray.performTask();
     }
 }
