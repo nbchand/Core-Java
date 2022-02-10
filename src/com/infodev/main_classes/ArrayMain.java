@@ -63,5 +63,7 @@ public class ArrayMain {
         InsertAtLocation.performTask();
         //Q.N. 35)
         DuplicateInStringArray.performTask();
+        //Q.N. 36)
+        SecondSmallestElement.performTask();
     }
 }
