@@ -43,5 +43,7 @@ public class StringExerciseMain {
         FirstAndLastOccurrence.performTask();
         //Q.N. 14)
         DifferentCharacters.performTask();
+        //Q.N. 15)
+        ConsonantReplacement.performTask();
     }
 }
