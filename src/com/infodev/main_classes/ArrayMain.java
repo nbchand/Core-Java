@@ -45,5 +45,7 @@ public class ArrayMain {
         LargestElementFactorial.performTask();
         //Q.N. 26)
         MaxProductOfSubArray.performTask();
+        //Q.N. 27)
+        MaxSubArray.performTask();
     }
 }
