@@ -37,5 +37,7 @@ public class ArrayMain {
         FirstRepeating.performTask();
         //Q.N. 22)
         FirstNonRepeating.performTask();
+        //Q.N. 23)
+        OddEvenIndex.performTask();
     }
 }
